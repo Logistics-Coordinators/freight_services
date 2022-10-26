@@ -12,8 +12,8 @@ import emailIcon from "./Images/mail.svg";
 import CompanyLogo from "./Images/Logo.png"; //Company Logo
 
 function App() {
-    const contactNo = "+91 1234567890"; //Company Contact Number
-    const email = "info@trucking.com"; // Company Email Address
+    const contactNo = "647-273-2025"; //Company Contact Number
+    const email = "info@freightstarts.com"; // Company Email Address
     return (
         <div className="App">
             <Navbar Logo={CompanyLogo} />

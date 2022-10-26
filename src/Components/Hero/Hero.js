@@ -18,7 +18,7 @@ const Hero = (props) => {
                         <h3>{props.email}</h3>
                     </div>
                 </li>
-                <Search />
+                {/* <Search /> */}
             </div>
             <div className={styles.content_container}>
                 <h1>Transport Cargo Everywhere</h1>

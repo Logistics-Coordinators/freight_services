@@ -8,9 +8,9 @@ const Services = () => {
             <Form
                 inputVal1="Location"
                 inputVal2="Destination"
-                inputVal3="Cargo Size"
+                inputVal3="CargoSize"
                 inputVal4="Email"
-                inputVal5="Contact Number"
+                inputVal5="ContactNumber"
                 title="Details"
                 buttonVal="Get a quote"
             />
