@@ -3,7 +3,7 @@ import Form from "../../Components/Form/Form";
 
 const Services = () => {
     return (
-        <div className={styles.container}>
+        <div id="Services" className={styles.container}>
             <h1>Avail Services</h1>
             <Form
                 inputVal1="Location"

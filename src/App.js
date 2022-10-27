@@ -2,9 +2,10 @@ import "./App.css";
 
 import Navbar from "./Components/Navbar/Navbar";
 import Hero from "./Components/Hero/Hero";
-import About from "./Components/About/About";
+import AboutCard from "./Components/AboutCard/AboutCard";
 import Services from "./Components/Services/Services";
 import Footer from "./Components/Footer/Footer";
+import About from "./Components/About/About";
 
 import contactIcon from "./Images/phone.svg";
 import emailIcon from "./Images/mail.svg";
@@ -24,6 +25,7 @@ function App() {
                 emailIcon={emailIcon}
             />
             <About />
+            <AboutCard />
             <Services />
             <Footer
                 contactNo={contactNo}

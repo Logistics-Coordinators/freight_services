@@ -18,6 +18,9 @@ body {
     --primar-color: #2d70be;
     --secondary-color: #002856;
 }
+html {
+    scroll-behavior: smooth;
+}
 
 code {
     font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",

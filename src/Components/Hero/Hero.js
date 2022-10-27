@@ -14,8 +14,13 @@ const Hero = (props) => {
                         <h3>{props.contactNo}</h3>
                     </div>
                     <div className={styles.banner_info}>
-                        <img src={props.emailIcon} alt="Mail" />
-                        <h3>{props.email}</h3>
+                        <a
+                            href="mailto:info@freightstarts.com
+"
+                        >
+                            <img src={props.emailIcon} alt="Mail" />
+                            <h3>{props.email}</h3>
+                        </a>
                     </div>
                 </li>
                 {/* <Search /> */}

@@ -7,13 +7,13 @@ const Navbar = (props) => {
             <div className={styles.link_list}>
                 <ul>
                     <li>
-                        <a href>Services</a>{" "}
+                        <a href="#Services">Services</a>{" "}
                     </li>
                     <li>
-                        <a href>About</a>{" "}
+                        <a href="#About">About</a>{" "}
                     </li>
                     <li>
-                        <a href>Contact</a>{" "}
+                        <a href="#Contact">Contact</a>{" "}
                     </li>
                 </ul>
             </div>

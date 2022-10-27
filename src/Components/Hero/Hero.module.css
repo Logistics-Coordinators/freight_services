@@ -20,6 +20,7 @@
 
 .banner,
 .banner li,
+.banner li a,
 .banner_info {
     display: flex;
     align-items: center;
@@ -40,16 +41,21 @@
     gap: 2rem;
 }
 
-.banner_info {
+.banner_info,
+.banner_info a {
     gap: 0.5rem;
 }
 
-.banner_info > h3 {
+.banner_info h3 {
     font-weight: 400;
 }
 
 .content_container {
     padding-left: 4rem;
+    display: flex;
+    gap: 1rem;
+    align-items: flex-start;
+    flex-direction: column;
 }
 
 .content_container h1,
@@ -72,5 +78,22 @@
 @media only screen and (max-width: 650px) {
     .banner {
         display: none;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .content_container {
+        padding-left: 4rem;
+        gap: 1rem;
+    }
+    .content_container h1 {
+        font-size: 2em;
+        font-weight: 700;
+    }
+
+    .content_container p {
+        font-size: 1em;
+        font-weight: 300;
+        width: 80%;
     }
 }

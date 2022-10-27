@@ -1,6 +1,6 @@
 import styles from "./Cards.module.css";
 
-const Card = (props) => {
+const Cards = (props) => {
     return (
         <>
             <div className={styles.card_container}>
@@ -14,4 +14,4 @@ const Card = (props) => {
     );
 };
 
-export default Card;
+export default Cards;
