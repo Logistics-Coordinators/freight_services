@@ -21,14 +21,12 @@
     border-radius: 6px;
     font-weight: 500;
     color: white;
-    transition: 300ms all ease-in-out;
+    transition: 0.2s all ease;
 }
 
 .container form button:hover {
-    font-size: 13px;
-
     background-color: var(--secondary-color);
-    border: 1px solid var(--secondary-color);
+    border: 1px solid white;
 }
 
 .title_input_container {
