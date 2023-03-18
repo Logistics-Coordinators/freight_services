@@ -28,8 +28,8 @@ const Hero = (props) => {
             <div className={styles.content_container}>
                 <h1>Transport Cargo Everywhere</h1>
                 <p>
-                    100% guaranteed safe delievery with over 30 highly
-                    modernized delievery vehicles
+                    100% guaranteed safe delievery with 30+ highly
+                    modernized delivery vehicles
                 </p>
             </div>
             <img src={HeroImage} alt="" />

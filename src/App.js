@@ -10,7 +10,7 @@ import About from "./Components/About/About";
 import contactIcon from "./Images/phone.svg";
 import emailIcon from "./Images/mail.svg";
 
-import CompanyLogo from "./Images/Logo.png"; //Company Logo
+import CompanyLogo from "./Images/fsl_logo_nav.png"; //Company Logo
 
 function App() {
     const contactNo = "647-273-2025"; //Company Contact Number

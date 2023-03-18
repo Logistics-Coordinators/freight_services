@@ -1,6 +1,6 @@
 import styles from './Footer.module.css';
 
-import FooterLogo from '../../Images/FooterLogo.svg';
+import FooterLogo from '../../Images/fsl_logo_foot.png';
 
 const Footer = (props) => {
   const year = new Date().getFullYear();

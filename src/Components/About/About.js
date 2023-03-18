@@ -11,7 +11,7 @@ const About = () => {
                 the art preventative maintenance our drivers get to their
                 destination safely and on time. Our success is driven by our
                 commitment to our customers. We provide consistent and reliable
-                up-to-date communications; all of our units are equipped with
+                up-to-date communications. All of our units are equipped with
                 GPS, we can provide accurate location when updates are provided.
                 Our account representatives are available 24hrs a day 365 days
                 of the year. From Hot loads and Special (white glove) Loads to
